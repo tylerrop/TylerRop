@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.problemHead {
+color:red;
+}
+
+.goodHead {
+color:green;
+}
+
+.fieldErr {
+background:#FFCCCC;
+border-color:#FF0000;
+}
+

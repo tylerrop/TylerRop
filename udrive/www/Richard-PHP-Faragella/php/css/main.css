@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding:0px;
+	background-color: #E1E1E1;
+}
+
+a {	
+}
+
+#main {
+	position:relative;
+	width: 905px;
+	margin-left: -452.5px;
+	left: 50%;
+	background-color: #222222;
+}
+#footerInfo
+{
+	width: 905px;
+	height:75px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #222222;
+	font-family:Geneva, sans-serif;
+	font-weight:bold;
+	margin-bottom:80px;
+}
+
+#footerInfo h3
+{
+	color:#FFFFFF;
+	font-size:12px;
+	margin-left:30px;
+	margin-top:10px;
+}
+
+/* Header */
+
+.header {
+	position:relative;
+	height:190px;
+	width:100%;
+}
+
+.logo_div {
+	position:relative;
+	float:left;
+	left: 0px;
+	top: 0px;
+	padding: 15px;
+	padding-bottom: 0px;
+	width: 150px;
+	border-right: #858585 1px solid;
+	margin-bottom:0px;
+}
+
+.logo_div a img {
+	border:none;
+	text-decoration:none;
+}
+
+
+#logo {
+	bottom: 0px;
+}
+
+#main_menu {
+	position:absolute;
+	clear:none;
+	bottom:0px;
+	right:0px;
+	margin-bottom:25px;
+}
+
+#main_menu li {
+	list-style:none;
+	float:left;
+	margin-right:35px;
+}
+
+#main_menu li a img {
+	border:none;
+	text-decoration:none;
+}
+
+
+/* Kill Header */
+.ad {
+	position:relative;
+	width:827px;
+	height:173px;
+	padding:40px;
+}
+
+#ad_text {
+	position:absolute;
+	top:40px;
+	left:40px;
+}
+
+#ad_link {
+	position:absolute;
+	bottom:30px;
+}
+
+/* Content box styles */
+.content{
+	position:relative;
+	width:100%;
+	background: #FFF;
+	padding:40px;
+}
+
+/* Kill Content */
+
+.footer {
+	position:relative;
+	width:100%;
+}
+
+
+/* Blog Pane */
+.blog_pane_app {
+	height:360px;
+	overflow:auto;
+	width:390px;
+}
+
+
+.blog_pane_app_entrie {
+	margin:0px;
+	padding:7px;
+	padding-left:9px;
+	margin-bottom:2px;
+	width:360px; 
+	background-color:#EbEbEb;"
+}
+
+.blog_pane_app_entrie h1 {
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:large;
+	font-weight:600;
+}
+.blog_pane_app_entrie h2 {
+	padding:0px;
+	margin:0px;
+	font-family:Geneva, sans-serif;
+	font-style:italic;
+	color:#707070;
+	font-size:12px;
+	font-weight:100;
+}
+
+.blog_pane_app_entrie p {
+	padding:0px;
+	margin:0px;
+	color:#959595;
+	font-family:Geneva, sans-serif;
+	font-size:11px;
+}
+
+table {
+	text-align:center; 
+	color:#333; 
+	border:#FFF medium solid;
+}
+
+tr {
+	border:none;
+}
+
+td {
+	border:none;
+	background-color:#CCC;
+}

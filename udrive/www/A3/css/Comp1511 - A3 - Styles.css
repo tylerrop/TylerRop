@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background:#5f7f98;
+}
+
+h1
+{
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+}
+
+h4
+{
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+#mainNav
+{
+	background-color:#5f7f98;
+	width:940px;
+	height:25px;
+	color:#FFF;
+	padding-top:0px;
+	margin-top:5px;
+	margin-bottom: 0;
+	font-weight:bold;
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	border:1px solid #FFFFFF;
+	margin-bottom:0;
+	margin-top:0;
+	padding-top:5px;
+	padding-bottom:6px;
+	background-color: #2d4c65;
+	float:left;
+	
+}
+
+#mainNav ul li 
+{ 
+	display: inline; 
+	margin:0 15px 0 15px;
+	padding:0 0 0 0;
+}
+
+#mainNav ul li a
+{
+	text-decoration: none;
+	color:#FFF;
+}
+
+#mainNav ul li a:hover
+{
+	text-decoration: none;
+	color:#a8be1e;
+}
+
+#searchIcon
+{
+	padding:0 0px 0px 0;
+	margin:0 0 -7px 0;
+}
+
+.searchLI
+{
+	width:280px;
+	height:25px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+.searchForm
+{
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	border:1px solid #FFFFFF;
+	margin-bottom:0;
+	margin-top:0px;
+	padding-top:6px;
+	padding-bottom:8px;
+	background-color: #2d4c65;
+	padding:0 15px 0 15px;
+	height:26px;
+	
+}
+
+
+#leftMenuFinal
+{
+	margin-top:5px;
+}
+
+#leftMenuFinal ul li
+{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	list-style-type:none;
+	background-color:#a8be1e;
+	color:#FFF;
+	border:1px solid #FFF;
+	margin-bottom:8px;
+	margin-top:5px;
+	padding-top:0;
+	
+}
+
+#leftMenuFinal ul li a
+{
+	text-decoration:none;
+	padding:0 0 0px 8px;
+	color:#FFF;
+}
+
+#leftMenuFinal ul li a:hover
+{
+	text-decoration:none;
+	padding: 0 0 0 8px;
+	margin:0 0 0 0;
+	color:#2d4c65;
+}
+
+.rightArrow
+{
+	float:right;
+	padding:2px 3px 0 0;
+}
+
+.globalSearch
+{
+
+	border:1px solid #2d4c65;
+}
+
+#nameEntry
+{
+	border:1px solid #2d4c65;
+	width:130px;
+	
+}
+
+#passwordEntry
+{
+	border:1px solid #2d4c65;
+	width:130px;
+}
+	
+
+#headerStyles
+{
+	background:#5f7f98;
+	margin-top:10px;
+}
+
+#headerStyles2
+{
+	background:#5f7f98;
+}
+
+.greenText1
+{
+	color:#a8be1e;
+	margin-left:5px;
+	margin-top:5px;
+	font-size:22px;
+}
+
+.greenText2
+{
+	color:#a8be1e;
+	margin-left:5px;
+	margin-top:5px;
+	font-size:16px;
+	font-weight:600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.aboutParagraph
+{
+	margin:10px;
+}
+
+#contentArea
+{
+	border:1px solid #FFF;
+	margin:0px;
+	padding:5px;
+	margin-top:10px;
+	margin-left:-2px;
+	padding-right:5px;
+	background-color:#2d4c65;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.mainText
+{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:5px
+}
+
+.mainPics
+{
+	padding:5px;
+	margin-left:5px;
+	border:1px solid #FFF;
+}
+
+.mainPics:hover
+{
+	border:1px solid #a8be1e;
+}
+
+.featuredImage
+{
+	float:left;
+	padding:5px;
+}
+
+.allPaintings
+{
+	padding:5px;
+	margin:0px;
+	border:1px solid #FFF;
+	margin:6px;
+	width:133px;
+	height:216px;
+	text-align:center;
+	position:relative;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.allPaintings:hover
+{
+	border:1px solid #a8be1e;
+}
+
+
+.allArtists
+{
+	padding:5px;
+	margin:0px;
+	border:1px solid #FFF;
+	margin:6px;
+	width:133px;
+	height:146px;
+	text-align:center;
+	position:relative;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.allArtists:hover
+{
+	border:1px solid #a8be1e;
+}
+
+.singlePainting
+{
+	float:left;
+	max-height:300px;
+	max-width:300px;
+	padding-right:5px;
+	margin-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.singlePaintingText
+{
+	color:#a8be1e;
+	size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:600;
+	margin-top:5px;
+}
+
+.singlePantingTextWhite
+{
+	color:#FFFFFF;
+	size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:500;
+}
+	
+.paintingWikiLink
+{
+	color:#a8be1e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:600;
+	text-decoration:underline;
+}
+
+.browseAllPaintingsLinks
+{
+	color:#a8be1e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:600;
+	text-decoration:underline;
+}
+
+.genreLinks
+{
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#a8be1e;
+	font-weight:600;
+	text-decoration:underline;
+	margin:5px;
+}
+
+
+
+#footer
+{
+	border:1px solid #FFF;
+	margin-top:10px;
+	margin-left:10px;
+	height:26px;
+	margin: 0 auto;
+	width: 486px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#2d4c65;
+	color:#FFFFFF;
+}
+
+#footer ul
+{
+	list-style-type: none;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:0;
+	margin-top:5px;
+	padding-top:2px;
+	padding-bottom:5px;
+	padding-left:0;
+	padding-right:0;
+}
+
+#footer ul li 
+{ 
+	display: inline; 
+	margin:0 20px 0 20px;
+	padding:0 0 0 0;
+}
+
+#footer ul li a
+{
+	text-decoration: none;
+	color:#FFF;
+}
+
+#footer ul li a:hover
+{
+	text-decoration: none;
+	color:#a8be1e;
+}
