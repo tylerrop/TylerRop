@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
 
 body {
-    min-width: 300px;
+    min-width: 640px;
     text-overflow:ellipsis;
     font-family:'Carrois Gothic', Arial, sans-serif;
     background-image:url('BWBackdrop.png');     
@@ -30,9 +30,6 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-
-
-
 .siteBackground {
     width: 100%;
     height: 100%;
@@ -40,46 +37,21 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-.siteBackground2{
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 #navProfilePic {
-    display: block;
-    height: auto;
-    width: 30px;
-    padding-top: 5px;
+    margin-top: -5px;
+    margin-right: 0.5em;
+    float: left;
+    height: 25px;
+    width: auto;
+    border-radius: 13px;
+    border: 1px solid #6F6F6F;
 }
 
-.red {
-    color:red;
-}
 
 #secondNav {
 
     border: solid 1px black;
-}
-
-.primaryContentBack {
-    background-color:white;
-    border-radius: 4%;
-    border: solid 3px black;
-}
-
-.singlePaintingByArtist {
-    text-align:center;
-    margin-right:1.75em;
-    margin-bottom:1em;
-    min-width:200px;
-}
-
-.singlePaintingByArtistIMG {
-    display:block; 
-    margin-left: auto; 
-    margin-right:auto;
 }
 
 .overFlow {
@@ -88,39 +60,6 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow:ellipsis;
 }
 
-.overFlowArtistList {
-
-    overflow:hidden;
-    text-overflow:ellipsis;
-}
-
-.carouselTitle {
-    font-size: 35px;
-    font-weight: bold;
-    opacity:2.0;
-    filter:alpha(opacity=100);
-    text-decoration:none;
-}
-.carouselTitle:hover, .carouselSub:hover{
-    color: #cd4d34;
-}
-
-.carouselSub {
-    font-size: 18px;
-    font-style: italic;
-    text-decoration:none;
-}
-
-.carouselBG {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:rgba(0,0,0,0.4);
-    width: 100%;
-    position: absolute;
-    left: -0px;
-    bottom: -5px;
-}
 
 #bullets {
     position: absolute;
@@ -170,61 +109,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.centerMarginsPanelPara {
-    display:block;
-    height:auto;
-    width: 100%;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top:10px;
-    text-align: center;
-}
-
-.leftPadEightPix {
-    padding-left:8px;
-}
-
-.leftTopMarginEightPix {
-    margin-left:8px;
-    margin-top:8px;
-    display:block;
-}
-
-
-.leftMarginNegativeEightPix {
-    margin-left:-8px;
-}
-
 .advancedSearchCaret {
     display:inline-block;
     float:right;
     vertical-align:middle;
-
-}
-
-.masterSearchBox {
-    display:inline-block;
-    float:right;
-    vertical-align:middle;
-    display: block;
-}
-
-#nameBlock {
-    display:block;
-    float:left;
-    width:auto;
-    height:auto;
-    color:#999999;
-    vertical-align:middle;
-    padding-top:5px;
-    padding-right:15px;
-    padding-bottom:5px;
-}
-
-.fullWidthMasterButtons {
-    width: 100%;
-    margin-bottom:2%;
-    text-align:left;
 }
 
 .fullWidth {
@@ -237,39 +125,6 @@ h1, h2, h3, h4, h5, h6 {
     display:inline-block;
     vertical-align:middle;
     margin-top:7px;
-}
-
-.artistPicSpacing {
-    margin-bottom: 2%;
-}
-
-.relatedArtistsIMG {
-    width:50px;
-    height:auto;
-    display:inline-block;
-    float:left;
-    vertical-align:middle;
-    margin-right:2%;
-}
-
-.autoSizedListItem {
-    height:120px;
-}
-
-    .autoSizedListItem p {
-        margin-top:15px;
-    }
-
-.relatedArtistFav {
-    display:block;
-    margin-top:25px;
-    margin-bottom:0px;
-}
-
-.relatedArtistFavZeroTop {
-    display:block;
-    margin-top:0px;
-    margin-bottom:0px;
 }
 
 .clearLeft {
@@ -292,19 +147,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bold {
     font-weight:bold;
-}
-
-.artistListBox {
-    max-height:50px;
-}
-
-
-.artistListDetails {
-    height:100px;
-    width:auto;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
 }
 
 .rightText {
@@ -355,52 +197,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0;
 }
 
-.genreBoxSize {
-    height:178px;
-    
-    margin-bottom:50px;
-}
-
-.minGPX {
-    min-height:178px;
-}
-
-.searchBoxBottomMargin {
-    margin-bottom:1em;
-}
-
-.noResults {
-    display:block;
-    margin-top:15px;
-    font-size:large;
-}
-
 .noTopPadding {
     padding-top:0px;
-}
-
-.searchGrid {
-    background-color:white;
-    border:1px solid #dddddd;
-    padding:10px;
-
-}
-
-.searchResultsGrid {
-    background-color:#fff;
-    border:none;
-    border:hidden;
-    padding:0;
-    margin:0;
-}
-
-.noBorder {
-    border:none;
-    border-width:0px;
-}
-
-.noBorderBottom {
-    border-bottom-width:0px;
 }
 
 .hide {
@@ -414,39 +212,6 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align:top;
 }
 
-.favListIMG3px {
-    margin-left:3px;
-}
-
-.rightDelete {
-    display:block;
-    float:right;
-    text-align:right;
-}
-
-.modifyIcon {
-    display:block;
-}
-
-.selectSpacing {
-    margin-bottom:1em;
-   
-    display:block;
-    clear:both;
-}
-
-.filterButtonSpacing {
-    margin-top: 1em;
-}
-
-.colourPicker {
-    margin-top:0.5em;
-    margin-bottom:0.5em;
-    height:2em;
-    width:100%;
-    border: 0.5px solid #dddddd;
-}
-
 .tinyTopMargin {
     margin-top:0.5em;
 }
@@ -455,50 +220,22 @@ h1, h2, h3, h4, h5, h6 {
     background-color:transparent;
 }
 
-.paddingPointFiveEM {
-    padding:5em;
-}
-
-.paddingPointFiveEMBottom {
-    padding-bottom:0.5em;
-
-}
-
-.noTopBottomPadding {
-    padding-top:0;
-    padding-bottom:0;
-}
-
 .displayNone {
     display:none;
 }
 
-.reviewScroll {
-    width:100%; 
-    height:150px; 
-    overflow-y:scroll;
+.topNavText
+{
+    text-transform: uppercase;
+    color: #6F6F6F;
 }
 
-.mofidyUsersSize {
-    height:auto;
-    max-height:140px;
-}
-
-.topAd {
-    background-image:url(TopAd.png);
-    background-repeat:no-repeat;
-    background-size:auto;
-    min-height:70px;
-    margin-bottom:1.4em;
-    display:block;
-}
-
-.sideAd {
-    background-image:url(SideAd.png);
-    background-repeat:no-repeat;
-    background-size:auto;
-    min-height:400px;
-    margin-top:13px;
-    margin-bottom:20px;
-    display:block;
+.indexContentBackground {
+    background: url(../images/index-pic-example-1.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    max-height: 600px;
+    height: auto;
+    
 }

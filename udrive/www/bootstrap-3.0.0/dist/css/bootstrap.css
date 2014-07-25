@@ -4491,11 +4491,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse {
   background-color: #032531;
-  border-color: #cd4d34;
+  border-color: #6F6F6F;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4509,7 +4509,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4547,7 +4547,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #6F6F6F;
 }
 
 .navbar-inverse .navbar-nav > .open > a,

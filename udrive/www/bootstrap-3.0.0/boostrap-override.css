@@ -1,3 +1,26 @@
+
+/*topNav styling*/
+.navbar-brand,.navbar-inverse, 
+.navbar-nav > li > a {
+    color: #6F6F6F;
+    text-transform: uppercase;
+
+}
+
+.navbar-inverse {
+    background-color: #032531;
+    border-color: #6F6F6F;
+}
+
+.navbar-fixed-top {
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 2px 4px #6F6F6F;
+    box-shadow: none 2px 2px #6F6F6F;
+    box-shadow: 0px 1px 2px #6F6F6F ;
+}
+
+/*Older overrides from FreshPaint*/
 .list-group-item.active, 
 .list-group-item.active:hover, 
 .list-group-item.active:focus, 
@@ -40,7 +63,7 @@ a.list-group-item:focus,
 .navbar-inverse {
     background-color: #E0E0E0;
     font-size: 120%;
-    text-align: center;
+    text-align: left;
 }
 
 .noBottomPadding {
@@ -59,11 +82,6 @@ navbar-nav > .open,
 	
 	border-color: #cd4d34;
     text-decoration-color: #cd4d34;
-}
-
-.orange-text, .orange-text:hover, .orange-text:active
-{
-	color: #cd4d34;
 }
 
 /*left menu highlight*/
@@ -121,7 +139,6 @@ margin-top: -11px;
 
 a.list-group-item
 div.list-group-item a {
-    text-decoration: none;
     background-color: white;
     color: black;
     text-decoration:none;

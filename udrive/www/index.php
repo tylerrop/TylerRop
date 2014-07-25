@@ -43,7 +43,7 @@
       <!--Top Menu-->
       <?php include 'topNav.php'; ?>
 
-      <?php include 'bodyContainer.php'; ?>
+      <?php include 'indexContent.php'; ?>
 
       <?php include 'footer.php'; ?>
 
@@ -57,7 +57,8 @@
       <script src="bootstrap-3.0.0/js/offcanvas.js"></script>
       <!--Used for popover in foter-->
       <script src="bootstrap-3.0.0/js/application.js"></script>
-            
+
+<!--End of Body-->            
 </body>
 
 
